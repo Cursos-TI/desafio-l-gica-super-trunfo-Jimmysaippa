@@ -11,10 +11,9 @@ int main (){
  float densidadepopulacional1, densidadepopulacional2;
  float pibpercapita1, pibpercapita2;
 
- float Superpoder1;
- float Superpoder2;
+ // float Superpoder1;
+ //float Superpoder2;
 
- int resultado;
 
  // Entrada de dados 
 
@@ -46,7 +45,7 @@ int main (){
  densidadepopulacional1 = (float) populacao1 / area1;
  pibpercapita1 =(float) pib1 / populacao1;
  
- Superpoder1 = (float) populacao1 + area1 + pib1 +pontoturistico1 + pibpercapita1 + (1/densidadepopulacional1);
+ //Superpoder1 = (float) populacao1 + area1 + pib1 +pontoturistico1 + pibpercapita1 + (1/densidadepopulacional1);
  // Entrada de dados da Segunda cidade 
 
  printf("Digite a letra do Estado (A-H): \n");
@@ -75,7 +74,7 @@ int main (){
   densidadepopulacional2 =(float) populacao2 /area2;
   pibpercapita2 = (float) pib2 / populacao2;
 
-  Superpoder2 = populacao2 + area2 + pontoturistico2 + pib2 + pibpercapita2 + (1/ densidadepopulacional2);
+ // Superpoder2 = populacao2 + area2 + pontoturistico2 + pib2 + pibpercapita2 + (1/ densidadepopulacional2);
 
  // comparaçãp das cartas
  
